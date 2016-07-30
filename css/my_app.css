@@ -29,15 +29,10 @@
 ÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇô */
 .values {
   color: #fff;
-  padding-bottom: 5rem;
 }
 
 .values a {
-  color: black;
-}
-
-.values .heading {
-  margin-bottom: .3rem;
+  color: white;
 }
 
 .values .description {
