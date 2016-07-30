@@ -2,42 +2,63 @@
 /* Sections
 ÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇô */
 .section {
-    padding: 8rem 0 7rem;
-    text-align: center;
+  padding: 8rem 0 7rem;
+  text-align: center;
+  color: #F1F1F1;
 }
 
 .section .heading,
 .section .description {
-    position: relative;
+  position: relative;
+}
+
+.bg-white {
+  background-color: white;
+  position: relative;
+  color: #333333;
 }
 
 /* Hero
 ÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇô */
 .photo {
-    position: relative;
-    max-width: 60%;
+  position: relative;
+  max-width: 60%;
 }
 
 /* Values
 ÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇôÔÇô */
 .values {
-    background-color: #1EAEDB;
-    background-size: cover;
-    color: #fff;
-    padding-bottom: 5rem;
+  color: #fff;
+  padding-bottom: 5rem;
 }
 
 .values a {
-    color: black;
+  color: black;
 }
 
 .values .heading {
-    margin-bottom: .3rem;
+  margin-bottom: .3rem;
 }
 
 .values .description {
     opacity: .8;
-    font-weight: 300;
+  font-weight: 300;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("http://i.imgur.com/EoCNKyk.jpg") !important;
+  /* Set a specific height */
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=my_app.css.map */
