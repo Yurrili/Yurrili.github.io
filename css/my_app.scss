@@ -1,0 +1,42 @@
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+
+  .heading,
+  .description {
+    position: relative;
+  }
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.photo {
+  position: relative;
+  max-width: 60%;
+
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-color: #1EAEDB;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+
+  a {
+    color: black;
+  }
+
+  .heading {
+    margin-bottom: .3rem;
+  }
+
+  .description {
+    opacity: .8;
+    font-weight: 300;
+  }
+}
