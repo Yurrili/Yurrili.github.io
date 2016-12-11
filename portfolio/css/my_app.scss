@@ -1,0 +1,61 @@
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+  color: #F1F1F1;
+
+  .heading,
+  .description {
+    position: relative;
+  }
+}
+
+.bg-white {
+  background-color: white;
+  position: relative;
+  color: #333333;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.photo {
+  position: relative;
+  max-width: 60%;
+
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  color: #fff;
+
+  a {
+    color: white;
+  }
+
+  .description {
+    opacity: .8;
+    font-weight: 300;
+  }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("http://i.imgur.com/EoCNKyk.jpg") !important;
+
+  /* Set a specific height */
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
